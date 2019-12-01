@@ -2,9 +2,11 @@
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
-echo "${red}red text ${green}green text${reset}"
 
-echo "${green}Setting up your Mac..."
+echo "${red}[SYSTEM] ${green}Setting up your Mac...${reset}"
+
+echo echo "${red}[SYSTEM] ${green}Allowing installing Apps from Anywhere${reset}"
+sudo spctl --master-disable
 
 # Check for Homebrew and install if we don't have it
 echo "${red}[SYSTEM] ${green}Checking if Homebrew is installed${reset}"
@@ -24,6 +26,9 @@ brew bundle
 echo "${red}[SYSTEM] ${green}Installing PHP Extensions with PECL...${reset}"
 # Install PHP extensions with PECL
 pecl install memcached imagick
+
+echo "${red}[SYSTEM] ${green} Installing Oh My ZSH${reset}"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "${red}[SYSTEM] ${green}Installing global Composer packages...${reset}"
 # Install global Composer packages
@@ -47,6 +52,9 @@ echo "${red}[SYSTEM] ${green}Symlink Mackup config file from the .dotfiles...${r
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# chmod +x to all files inside install directory
+chmod -R +x ./install
+
 echo "${red}[SYSTEM] ${green}Installing NPM global packages...${reset}"
 ./install/npm.sh
 
@@ -54,3 +62,6 @@ echo "${red}[SYSTEM] ${green}Setting MacOS Preferences...${reset}"
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
+
+echo "${red}[SYSTEM] ${green}Restoring all settings for all application from Cloud${reset}"
+mackup restore -f
