@@ -7,7 +7,6 @@ packages=(
   tldr
   tslint
   yo
-  diff-so-fancy
   grunt
   release-it
   underscore-cli

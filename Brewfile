@@ -73,6 +73,8 @@ brew "sqlite"
 brew "mcrypt"
 brew "imagick"
 brew "wifi-password"
+brew "diff-so-fancy"
+brew "forklift"
 
 # Apps
 cask "aerial"

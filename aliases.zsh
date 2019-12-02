@@ -231,3 +231,9 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
+
+
+###############
+# SYSTEM
+###############
+alias cat="bat --paging=never"

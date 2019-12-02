@@ -63,5 +63,8 @@ echo "${red}[SYSTEM] ${green}Setting MacOS Preferences...${reset}"
 # We will run this last because this will reload the shell
 source .macos
 
+echo "${red}[SYSTEM] ${green}Using 'diff-so-fancy' for all diffs${reset}"
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+
 echo "${red}[SYSTEM] ${green}Restoring all settings for all application from Cloud${reset}"
 mackup restore -f
