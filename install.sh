@@ -24,8 +24,12 @@ brew tap homebrew/bundle
 brew bundle
 
 echo "${red}[SYSTEM] ${green}Installing PHP Extensions with PECL...${reset}"
-# Install PHP extensions with PECL
-pecl install memcached imagick
+# Homebrew doesn't support the installation of PHP extensions anymore, Install PHP extensions with PECL
+pecl install memcached 
+pecl install imagick
+pecl install redis
+pecl install xdebug
+
 
 echo "${red}[SYSTEM] ${green} Installing Oh My ZSH${reset}"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
