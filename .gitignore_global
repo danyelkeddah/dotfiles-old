@@ -42,3 +42,4 @@ Thumbs.db
 # other files and dirs #
 _ide_helper.php
 node_modules/
+vendor/

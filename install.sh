@@ -57,6 +57,10 @@ echo "${red}[SYSTEM] ${green}Symlink .zshrc from the .dotfiles...${reset}"
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+echo "${red}[SYSTEM] ${green}Symlink .gitignore_global form the .dotfiles...${reset}"
+rm -rf $HOME/.gitignore_global
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+
 echo "${red}[SYSTEM] ${green}Symlink Mackup config file from the .dotfiles...${reset}"
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
