@@ -23,6 +23,11 @@ echo "${red}[SYSTEM] ${green}Installing Dependencies from Brewfile...${reset}"
 brew tap homebrew/bundle
 brew bundle
 
+echo "${red}[SYSTEM] ${green}Update MYSQL Configurations"
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+echo 'default_authentication_plugin=mysql_native_password' >> /usr/local/etc/my.cnf
+brew services restart mysql
+
 echo "${red}[SYSTEM] ${green}Installing PHP Extensions with PECL...${reset}"
 # Homebrew doesn't support the installation of PHP extensions anymore, Install PHP extensions with PECL
 pecl install memcached 
