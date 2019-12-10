@@ -122,6 +122,7 @@ cask "imageoptim"
 cask "datagrip"
 cask "tunnelblick"
 cask "proxyman"
+cask "ticktick"
 
 # Quicklook
 cask 'qlcolorcode'
