@@ -75,6 +75,7 @@ brew "imagick"
 brew "wifi-password"
 brew "diff-so-fancy"
 brew "forklift"
+brew "jq"
 
 # Apps
 cask "aerial"
