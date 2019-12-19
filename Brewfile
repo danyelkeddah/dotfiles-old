@@ -124,6 +124,7 @@ cask "datagrip"
 cask "tunnelblick"
 cask "proxyman"
 cask "ticktick"
+cask "steam"
 
 # Quicklook
 cask 'qlcolorcode'

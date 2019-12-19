@@ -43,3 +43,4 @@ Thumbs.db
 _ide_helper.php
 node_modules/
 vendor/
+.phpstorm.meta.php
