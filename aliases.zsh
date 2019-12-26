@@ -72,7 +72,7 @@ alias gpull="git pull"
 alias gpush="git push"
 alias gstash="git stash"
 alias gstats="git-quick-stats"
-
+alias gconflicts="git diff --name-only --diff-filter=U"
 
 
 
