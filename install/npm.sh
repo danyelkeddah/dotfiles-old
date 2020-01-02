@@ -11,6 +11,8 @@ packages=(
   release-it
   underscore-cli
   vtop
+  eslint-plugin-vue
+  eslint
 )
 
 npm install -g "${packages[@]}"
