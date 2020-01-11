@@ -76,6 +76,7 @@ brew "wifi-password"
 brew "diff-so-fancy"
 brew "forklift"
 brew "jq"
+brew "openvpn"
 
 # Apps
 cask "aerial"
@@ -125,6 +126,7 @@ cask "tunnelblick"
 cask "proxyman"
 cask "ticktick"
 cask "steam"
+cask "ticktick"
 
 # Quicklook
 cask 'qlcolorcode'
@@ -163,3 +165,4 @@ mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "Hidden Bar", id: 1452453066
+mas "Bear", id: 1091189122

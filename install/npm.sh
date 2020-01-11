@@ -13,6 +13,7 @@ packages=(
   vtop
   eslint-plugin-vue
   eslint
+  n
 )
 
 npm install -g "${packages[@]}"
