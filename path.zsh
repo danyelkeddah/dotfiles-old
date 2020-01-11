@@ -18,3 +18,6 @@ export PATH=$HOME/bin:$PATH
 export GOPATH=$HOME/.go
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH=$PATH:$GOROOT/bin
+
+# fzf
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"

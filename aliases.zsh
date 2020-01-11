@@ -12,7 +12,7 @@ alias fu="du -ch"
 alias folderusage="fu"
 alias tfu="du -sh"
 alias totalfolderusage="tfu"
-
+alias duu="ncdu --color dark -rr -x --exclude .git --exclude node_modules --exclude vendor"
 
 
 ###############
@@ -237,3 +237,5 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 # SYSTEM
 ###############
 alias cat="bat --paging=never"
+alias ping="prettyping --nolegend"
+alias preview="fzf --preview 'bat --color \"always\" {}'"

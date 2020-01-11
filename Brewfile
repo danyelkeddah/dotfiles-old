@@ -77,6 +77,11 @@ brew "diff-so-fancy"
 brew "forklift"
 brew "jq"
 brew "openvpn"
+brew "prettyping"
+brew "fzf"
+brew "fd"
+brew "ncdu"
+brew "noti"
 
 # Apps
 cask "aerial"
