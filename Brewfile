@@ -10,6 +10,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "owncloud/owncloud"
 tap "shopify/shopify"
+tap "mongodb/brew"
 
 # Binaries
 brew "python"
@@ -82,6 +83,7 @@ brew "fzf"
 brew "fd"
 brew "ncdu"
 brew "noti"
+brew "mongodb-community"
 
 # Apps
 cask "aerial"
@@ -150,6 +152,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-fira-code'
+cask 'font-jetbrains-mono'
 
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
