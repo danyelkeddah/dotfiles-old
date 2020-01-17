@@ -39,6 +39,10 @@ pecl install xdebug
 echo "${red}[SYSTEM] ${green} Installing Oh My ZSH${reset}"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+echo "${red}[SYSTEM] ${green} Installing PHP Switcher${reset}"
+curl -L https://gist.githubusercontent.com/rhukster/f4c04f1bf59e0b74e335ee5d186a98e2/raw > /usr/local/bin/sphp
+chmod +x /usr/local/bin/sphp
+
 echo "${red}[SYSTEM] ${green}Installing global Composer packages...${reset}"
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/installer laravel/spark-installer laravel/valet
