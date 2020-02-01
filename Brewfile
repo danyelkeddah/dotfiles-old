@@ -84,7 +84,7 @@ brew "fd"
 brew "ncdu"
 brew "noti"
 brew "mongodb-community"
-
+brew "legit"
 # Apps
 cask "aerial"
 cask "alfred"
