@@ -11,6 +11,7 @@ tap "homebrew/services"
 tap "owncloud/owncloud"
 tap "shopify/shopify"
 tap "mongodb/brew"
+tap "github/gh"
 
 # Binaries
 brew "python"
@@ -86,6 +87,8 @@ brew "noti"
 brew "mongodb-community"
 brew "legit"
 brew "pidof"
+brew "gh"
+
 # Apps
 cask "aerial"
 cask "alfred"
