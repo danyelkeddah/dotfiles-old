@@ -88,7 +88,7 @@ brew "mongodb-community"
 brew "legit"
 brew "pidof"
 brew "gh"
-
+brew "hub"
 # Apps
 cask "aerial"
 cask "alfred"

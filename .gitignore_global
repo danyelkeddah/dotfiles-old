@@ -44,3 +44,4 @@ _ide_helper.php
 node_modules/
 vendor/
 .phpstorm.meta.php
+_ide_helper_models.php
