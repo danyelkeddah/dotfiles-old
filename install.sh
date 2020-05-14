@@ -48,6 +48,8 @@ echo "${red}[SYSTEM] ${green}Installing Laravel Valet...${reset}"
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 echo "${red}[SYSTEM] ${green}Creating directories...${reset}"
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed

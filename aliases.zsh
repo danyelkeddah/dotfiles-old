@@ -39,7 +39,14 @@ alias dcup="docker-compose up"
 alias dcupd="docker-compose up -d"
 alias dcdown="docker-compose down"
 
-
+###############
+# SYSTEM
+###############
+alias k="kubectl"
+alias kpods="kubectl get pods"
+alias kdeployments="kubectl get pods"
+alias kdeployments="kubectl get services"
+alias kingress="kubectl get ingress"
 
 ###############
 # DOTFILES
@@ -239,3 +246,11 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 alias cat="bat --paging=never"
 alias ping="prettyping --nolegend"
 alias preview="fzf --preview 'bat --color \"always\" {}'"
+
+###############
+# VIM
+###############
+
+alias vimrc="vim ~/.vimrc"
+alias vimmappings="vim ~/.vim/settings/mappings.vim"
+alias vimvisuals="vim ~/.vim/settings/visuals.vim"
