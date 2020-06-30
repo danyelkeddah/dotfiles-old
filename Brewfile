@@ -138,7 +138,7 @@ cask "proxyman"
 cask "ticktick"
 cask "steam"
 cask "ticktick"
-
+cask "mongodb-compass"
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
