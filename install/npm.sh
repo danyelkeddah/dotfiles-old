@@ -14,6 +14,7 @@ packages=(
   eslint-plugin-vue
   eslint
   n
+  pnpm
 )
 
 npm install -g "${packages[@]}"
