@@ -89,6 +89,7 @@ brew "legit"
 brew "pidof"
 brew "gh"
 brew "hub"
+brew "telnet"
 # Apps
 cask "aerial"
 cask "alfred"
