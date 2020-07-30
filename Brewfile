@@ -141,6 +141,7 @@ cask "steam"
 cask "ticktick"
 cask "mongodb-compass"
 cask "nordvpn"
+cask "netnewswire" 
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
