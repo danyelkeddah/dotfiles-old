@@ -12,6 +12,7 @@ tap "owncloud/owncloud"
 tap "shopify/shopify"
 tap "mongodb/brew"
 tap "github/gh"
+tap "weibeld/core"
 
 # Binaries
 brew "python"
@@ -90,6 +91,10 @@ brew "pidof"
 brew "gh"
 brew "hub"
 brew "telnet"
+brew "kubectl"
+brew "curl"
+brew "watch"
+brew "k1s"
 # Apps
 cask "aerial"
 cask "alfred"
