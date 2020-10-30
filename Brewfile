@@ -13,6 +13,7 @@ tap "shopify/shopify"
 tap "mongodb/brew"
 tap "github/gh"
 tap "weibeld/core"
+tap elastic/tap
 
 # Binaries
 brew "python"
@@ -95,6 +96,9 @@ brew "kubectl"
 brew "curl"
 brew "watch"
 brew "k1s"
+brew "elastic/tap/elasticsearch-full"
+
+
 # Apps
 cask "aerial"
 cask "alfred"
