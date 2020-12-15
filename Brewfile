@@ -49,6 +49,7 @@ brew "nmap"
 brew "node"
 brew "optipng"
 brew "php", restart_service: true
+brew "php@7.4"
 brew "php@7.3"
 brew "php@7.2"
 brew "php@7.1"
@@ -97,7 +98,7 @@ brew "curl"
 brew "watch"
 brew "k1s"
 brew "elastic/tap/elasticsearch-full"
-
+brew "ansible"
 
 # Apps
 cask "aerial"
@@ -150,7 +151,7 @@ cask "steam"
 cask "ticktick"
 cask "mongodb-compass"
 cask "nordvpn"
-cask "netnewswire" 
+cask "netnewswire"
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
