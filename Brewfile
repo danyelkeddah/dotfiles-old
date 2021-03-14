@@ -158,7 +158,7 @@ cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
-
+cask 'linear-linear'
 # Fonts
 cask 'font-lato'
 cask 'font-open-sans'

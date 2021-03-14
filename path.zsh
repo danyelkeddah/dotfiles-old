@@ -14,6 +14,7 @@ export PATH=node_modules/.bin:vendor/bin:$PATH
 # bin
 export PATH=$HOME/bin:$PATH
 
+
 # GO
 export GOPATH=$HOME/.go
 export GOROOT="$(brew --prefix golang)/libexec"
