@@ -99,6 +99,7 @@ brew "watch"
 brew "k1s"
 brew "elastic/tap/elasticsearch-full"
 brew "ansible"
+brew "rclone"
 
 # Apps
 cask "aerial"
