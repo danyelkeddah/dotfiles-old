@@ -14,6 +14,8 @@ export PATH=node_modules/.bin:vendor/bin:$PATH
 # bin
 export PATH=$HOME/bin:$PATH
 
+# python
+export PATH=$HOME/Library/Python/2.7/bin:$PATH
 
 # GO
 export GOPATH=$HOME/.go
