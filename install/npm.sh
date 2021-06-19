@@ -15,6 +15,7 @@ packages=(
   eslint
   n
   pnpm
+  redis-commander
 )
 
 npm install -g "${packages[@]}"
