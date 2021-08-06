@@ -254,3 +254,9 @@ alias preview="fzf --preview 'bat --color \"always\" {}'"
 alias vimrc="vim ~/.vimrc"
 alias vimmappings="vim ~/.vim/settings/mappings.vim"
 alias vimvisuals="vim ~/.vim/settings/visuals.vim"
+
+
+################
+# Localstack
+################
+alias laws="aws --endpoint-url=http://localhost:4566"

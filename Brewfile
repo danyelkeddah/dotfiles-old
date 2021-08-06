@@ -100,6 +100,7 @@ brew "k1s"
 brew "elastic/tap/elasticsearch-full"
 brew "ansible"
 brew "rclone"
+brew "duf"
 
 # Apps
 cask "aerial"
@@ -153,6 +154,7 @@ cask "ticktick"
 cask "mongodb-compass"
 cask "nordvpn"
 cask "netnewswire"
+cask "jetbrains-toolbox"
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
