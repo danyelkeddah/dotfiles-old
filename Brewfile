@@ -101,6 +101,7 @@ brew "elastic/tap/elasticsearch-full"
 brew "ansible"
 brew "rclone"
 brew "duf"
+brew "cointop"
 
 # Apps
 cask "aerial"
