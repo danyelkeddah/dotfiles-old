@@ -13,7 +13,7 @@ tap "shopify/shopify"
 tap "mongodb/brew"
 tap "github/gh"
 tap "weibeld/core"
-tap elastic/tap
+tap "elastic/tap"
 
 # Binaries
 brew "python"
