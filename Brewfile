@@ -151,6 +151,8 @@ cask "dbngin"
 cask "warp"
 cask "raycast"
 cask "forklift"
+cask "slack"
+cask "tweetbot"
 
 # Quicklook
 cask 'qlcolorcode'
@@ -170,24 +172,18 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-fira-code'
 cask 'font-jetbrains-mono'
+cask 'font-cascadia-code'
+cask 'font-cascadia-code-pl'
+cask 'font-cascadia-mono'
+cask 'font-cascadia-mono-pl'
+
 
 mas "1Password 7", id: 1333542190
 mas "Amphetamine", id: 937984704
-mas "Folx GO+", id: 823528286
-mas "GIPHY CAPTURE", id: 668208984
-mas "Helium", id: 1054607607
 mas "Katib", id: 925418571
 mas "Numbers", id: 409203825
-mas "OhMyStar", id: 1218642292
 mas "Pages", id: 409201541
-mas "Slack", id: 803453959
-mas "SnippetsLab", id: 1006087419
 mas "Spark", id: 1176895641
-mas "Trello", id: 1278508951
-mas "Tweetbot", id: 557168941
 mas "Twitter", id: 1482454543
-mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
-mas "Hidden Bar", id: 1452453066
-mas "Bear", id: 1091189122
