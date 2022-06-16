@@ -1,3 +1,4 @@
+
 # Path to the dotfiles
 export DOTFILES=$HOME/.dotfiles
 
@@ -35,8 +36,4 @@ plugins=()
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-# Enable fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-

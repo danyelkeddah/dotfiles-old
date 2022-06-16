@@ -22,5 +22,12 @@ export GOPATH=$HOME/.go
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
+
+# Andorid
+export ANDROID_HOME=$HOME/Library/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 # fzf
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"

@@ -102,6 +102,7 @@ brew "ansible"
 brew "rclone"
 brew "duf"
 brew "cointop"
+brew "wtfutil"
 
 # Apps
 cask "aerial"
@@ -156,6 +157,9 @@ cask "mongodb-compass"
 cask "nordvpn"
 cask "netnewswire"
 cask "jetbrains-toolbox"
+cask "sf-symbols"
+cask "fliqlo"
+cask "dbngin"
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
