@@ -114,7 +114,6 @@ cask "robo-3t"
 cask "skype"
 cask "slack"
 cask "sourcetree"
-cask "spectacle"
 cask "teamviewer"
 cask "telegram"
 cask "the-unarchiver"
@@ -171,4 +170,5 @@ mas "Spark", id: 1176895641
 mas "Twitter", id: 1482454543
 mas "Tweetbot 3 for Twitter", id: 1384080005
 mas "Keynote", id: 409183694
+mas "Things 3", id: 904280696
 mas "Xcode", id: 497799835
