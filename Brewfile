@@ -71,7 +71,6 @@ brew "git"
 brew "gnupg2"
 brew "sqlite"
 brew "mcrypt"
-brew "imagick"
 brew "wifi-password"
 brew "diff-so-fancy"
 brew "jq"
@@ -100,12 +99,9 @@ brew "wtfutil"
 
 # Apps
 cask "aerial"
-cask "alfred"
 cask "brave-browser"
-cask "dash"
 cask "discord"
 cask "docker"
-cask "dropbox"
 cask "firefox"
 cask "google-chrome"
 cask "gpg-suite"
@@ -115,15 +111,10 @@ cask "minikube"
 cask "paw"
 cask "postman"
 cask "robo-3t"
-cask "rocket"
-cask "rocket-chat"
 cask "skype"
 cask "slack"
 cask "sourcetree"
 cask "spectacle"
-cask "spotify"
-cask "sublime-merge"
-cask "sublime-text"
 cask "teamviewer"
 cask "telegram"
 cask "the-unarchiver"
@@ -132,18 +123,12 @@ cask "vlc"
 cask "whatsapp"
 cask "tableplus"
 cask "virtualbox"
-cask "quickbooks"
-cask "pock"
 cask "imageoptim"
 cask "datagrip"
-cask "tunnelblick"
 cask "proxyman"
-cask "ticktick"
 cask "steam"
-cask "ticktick"
 cask "mongodb-compass"
 cask "nordvpn"
-cask "netnewswire"
 cask "jetbrains-toolbox"
 cask "sf-symbols"
 cask "fliqlo"
@@ -152,11 +137,10 @@ cask "warp"
 cask "raycast"
 cask "forklift"
 cask "slack"
-cask "tweetbot"
+cask "miro"
 
 # Quicklook
 cask 'qlcolorcode'
-cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
 cask 'qlstephen'
@@ -185,5 +169,5 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "Twitter", id: 1482454543
-mas "Xcode", id: 497799835
+mas "Tweetbot 3 for Twitter", id: 1384080005
 mas "Keynote", id: 409183694
