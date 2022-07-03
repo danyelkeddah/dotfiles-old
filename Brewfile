@@ -96,6 +96,10 @@ brew "rclone"
 brew "duf"
 brew "cointop"
 brew "wtfutil"
+brew "mkcert"
+brew "nss"
+brew "transmission-cl"
+
 
 # Apps
 cask "aerial"
@@ -137,6 +141,7 @@ cask "raycast"
 cask "forklift"
 cask "slack"
 cask "miro"
+cask "figma"
 
 # Quicklook
 cask 'qlcolorcode'
