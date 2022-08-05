@@ -36,4 +36,7 @@ plugins=()
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=`which chromium`
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
